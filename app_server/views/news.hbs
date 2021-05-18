@@ -17,39 +17,19 @@
 							<div class="sidebar">
 								<h3>Latest News</h3>
 								<ul>
+									{{#each latest_news}}
 									<li>
-										<a href="news.html">2023 Best Beaches Contest Winners</a>
+										<a href={{this.link}}>{{this.title}}</a>
 									</li>
-									<li>
-										<a href="news.html">Top 10 Diving Spots</a>
-									</li>
-									<li>
-										<a href="news.html">Fishing ban to be implemented this year</a>
-									</li>
-									<li>
-										<a href="news.html">Lifeguard saves child from drowning</a>
-									</li>
+									{{/each}}
 								</ul>
 								<h3>Vaction Tips</h3>
 								<ul>
+									{{#each vacation_tips}}
 									<li>
-										<a href="news.html">What to bring on the beach?</a>
+										<a href={{this.link}}>{{this.title}}</a>
 									</li>
-									<li>
-										<a href="news.html">Planning Fun Activities</a>
-									</li>
-									<li>
-										<a href="news.html">Diving Checklist</a>
-									</li>
-									<li>
-										<a href="news.html">First Aid</a>
-									</li>
-									<li>
-										<a href="news.html">How to Build a Sand Castle?</a>
-									</li>
-									<li>
-										<a href="news.html">Tanning Tips</a>
-									</li>
+									{{/each}}
 								</ul>
 							</div>
 							<div>

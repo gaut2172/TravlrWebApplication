@@ -38,15 +38,12 @@
 								</table>
 							</form>
 							<h2>Travlr Getaways</h2>
+							{{#each contactInfo}}
 							<p>
-								<span>Address:</span> 123 Lorem Ipsum Cove, Sed Ut City, LI 12345
+								{{{this.heading}}} {{this.content}}
 							</p>
-							<p>
-								<span>Telephone Number:</span> 1-800-999-9999
-							</p>
-							<p>
-								<span>Fax Number:</span> 1-800-111-1111
-							</p>
+							{{/each}}
+
 						</div>
 					</div>
 				</div>

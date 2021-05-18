@@ -24,14 +24,12 @@
 							</p>
 							<hr>
 							<div class="ads">
-								<h2>Our Crews</h2>
+								{{#each ads}}
+								<h2>{{this.heading}}</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a arcu ipsum.
+									{{this.body}}
 								</p>
-								<h2>Amenities</h2>
-								<p>
-									Phasellus porta ultrices lorem vel luctus.Cras sodales nulla vitae eros fermentum consequat. Aenean at purus odio.
-								</p>
+								{{/each}}
 							</div>
 							<h2>Be Part of Our Community</h2>
 							<p>
