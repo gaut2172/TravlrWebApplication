@@ -20,7 +20,7 @@
   },
   "seedgoose": {
     "modelBaseDirectory": "app_server/models",
-    "models": "*.js",
+    "models": ["*.js", "!db.js"],
     "data": "data",
     "db": "mongodb://localhost:27017/travlr"
   }
