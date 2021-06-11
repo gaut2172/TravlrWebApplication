@@ -23,7 +23,7 @@ const renderTravelList = (req, res, responseBody) => {
         }
     }
 
-    // render the page
+    // render the page using the travel.hbs handlebars file and the API data response
     res.render('travel', {
         title: pageTitle,
         trips: responseBody,
