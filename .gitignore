@@ -16,6 +16,7 @@
 # IDEs and editors
 /.idea
 
+
 # misc
 /.sass-cache
 /connect.lock
@@ -122,6 +123,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.test
 
 
 ### Vim ###
