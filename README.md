@@ -1,6 +1,6 @@
 # About the Project
 
-Travlr is a web application for vacation bookings and reviews. The fictional client, Travlr Getaways, had two userbases: administrators and customers. The customer side was to be content-focused, needed a fast initial load time, and was expecated to have a short user duration. On the other hand, the administrator side needed to be feature-focused, required more user interaction, needed a fast and responsive UE instead of a fast initial load time, and required longer user durations.
+Travlr is a web application for vacation bookings and reviews. The fictional client, Travlr Getaways, had two userbases: administrators and customers. The customer side was to be content-focused, needed a fast initial load time, and was expected to have a short user duration. On the other hand, the administrator side needed to be feature-focused, required more user interaction, needed a fast and responsive UE instead of a fast initial load time, and required longer user durations.
 
 # Depth of Project
 
