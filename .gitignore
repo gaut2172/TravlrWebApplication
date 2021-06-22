@@ -16,6 +16,7 @@
 # IDEs and editors
 /.idea
 
+
 # misc
 /.sass-cache
 /connect.lock
@@ -122,6 +123,7 @@ typings/
 
 # dotenv environment variables file
 .env
+.env.test
 
 
 ### Vim ###
@@ -140,3 +142,13 @@ tags
 
 # End of https://www.gitignore.io/api/angular,node,vim,git,macos
 0Looking
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/

@@ -1,0 +1,29 @@
+[
+    {
+        "link": "meals.html",
+        "heading": "The SeaFood Special",
+        "image": "images/seafoods.jpg",
+        "height": "169",
+        "width": "780",
+        "hoverName": "Fried Salmon Special",
+        "hoverOverview": "I'm a product overview. Here you can write more information about your product. Buyers like to know ..."
+    },
+    {
+        "link": "meals.html",
+        "heading": "Yummy Desserts",
+        "image": "images/desserts.jpg",
+        "height": "169",
+        "width": "780",
+        "hoverName": "Choco Ice Cream Sandwich",
+        "hoverOverview": "I'm a product overview. Here you can write more information about your product. Buyers like to know ..."
+    },
+    {
+        "link": "meals.html",
+        "heading": "The Buffet",
+        "image": "images/buffet.jpg",
+        "height": "169",
+        "width": "780",
+        "hoverName": "Mixed Buffet",
+        "hoverOverview": "I'm a product overview. Here you can write more information about your product. Buyers like to know ..."
+    }
+]

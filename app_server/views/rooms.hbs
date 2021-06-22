@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="background">
+		<div id="page">
+			{{> header}}
+			<div id="contents">
+				<div class="box">
+					<div>
+						<div class="body">
+							<h1>Rooms</h1>
+							<ul id="rooms">
+								{{#each rooms_data}}
+								<li>
+									<a href={{this.link}}><img src={{this.image}} alt="Img"></a>
+									<h2><a href={{this.link}}>{{this.title}}</a></h2>
+									<p>
+										{{this.description}}
+									</p>
+									<span class="rate">{{this.rate}}</span>
+								</li>
+								{{/each}}
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{> footer}}
+	</div>
+</body>
+</html>

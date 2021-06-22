@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="background">
+		<div id="page">
+			{{> header}}
+			<div id="contents">
+				<div class="box">
+					<div>
+						<div class="body">
+							<h1>Meals</h1>
+							<ul id="foods">
+								{{#each foods}}
+								<li>
+									<h2><a href={{this.link}}>{{this.heading}}</a></h2>
+									<div class="infos">
+										<a href={{this.link}}><img src={{this.image}} alt="Img" height={{this.height}} width={{this.width}}><span class="cover"></span></a>
+										<p>
+											<span>{{this.hoverName}}</span> {{this.hoverOverview}}
+										</p>
+									</div>
+								</li>
+								{{/each}}
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{> footer}}
+	</div>
+</body>
+</html>
